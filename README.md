@@ -9,11 +9,14 @@ This app uses spaCy for Named Entity Recognition (NER) and Streamlit for an inte
   pip install spacy
   python -m spacy download en_core_web_trf
 Install Streamlit:
-`pip install streamlit`
-
+```bash
+pip install streamlit
+```
 ## Usage
 - To run the app, use the following command:
-` streamlit run app.py`
+```bash
+ streamlit run app.py
+```
 
 - The app will prompt you to enter text and display the named entities recognized by spaCy.
   
